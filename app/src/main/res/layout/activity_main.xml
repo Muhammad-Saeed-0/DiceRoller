@@ -7,13 +7,20 @@
     android:orientation="vertical"
     android:layout_gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/roll_textView"
+<!--    <TextView-->
+<!--        android:id="@+id/roll_textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="!"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
+
+    <ImageView
+        android:id="@+id/dice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="!"
-        android:textSize="30sp"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dice_1"/>
 
     <Button
         android:id="@+id/roll_button"
